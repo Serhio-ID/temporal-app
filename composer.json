@@ -4,17 +4,20 @@
     "minimum-stability": "stable",
     "prefer-stable": true,
     "require": {
-        "php": ">=8.1",
+        "php": ">=8.2",
         "ext-ctype": "*",
         "ext-iconv": "*",
+        "baldinof/roadrunner-bundle": "^3.0",
+        "longman/telegram-bot": "^0.81.0",
+        "nyholm/psr7": "^1.8",
+        "spiral/roadrunner-cli": "^2.5",
         "symfony/console": "6.3.*",
         "symfony/dotenv": "6.3.*",
         "symfony/flex": "^2",
         "symfony/framework-bundle": "6.3.*",
         "symfony/runtime": "6.3.*",
-        "symfony/yaml": "6.3.*"
-    },
-    "require-dev": {
+        "symfony/yaml": "6.3.*",
+        "temporal/sdk": "^2.5"
     },
     "config": {
         "allow-plugins": {
